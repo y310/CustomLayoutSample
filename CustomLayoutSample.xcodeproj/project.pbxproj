@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4612C4BB18A35A6D003D419C /* CLSCustomVerticalScaleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4612C4BA18A35A6D003D419C /* CLSCustomVerticalScaleLayout.m */; };
 		464E064D18A2759400BE5AB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464E064C18A2759400BE5AB4 /* Foundation.framework */; };
 		464E064F18A2759400BE5AB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464E064E18A2759400BE5AB4 /* CoreGraphics.framework */; };
 		464E065118A2759400BE5AB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464E065018A2759400BE5AB4 /* UIKit.framework */; };
@@ -24,7 +25,8 @@
 		464E068618A2763400BE5AB4 /* CLSSimpleCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464E068518A2763400BE5AB4 /* CLSSimpleCollectionViewController.m */; };
 		464E068918A2775C00BE5AB4 /* CLSCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 464E068818A2775C00BE5AB4 /* CLSCollectionViewCell.m */; };
 		464E068C18A2870000BE5AB4 /* CLSCustomLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464E068B18A2870000BE5AB4 /* CLSCustomLayoutViewController.m */; };
-		464E068F18A287D200BE5AB4 /* CLSCustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 464E068E18A287D200BE5AB4 /* CLSCustomLayout.m */; };
+		464E068F18A287D200BE5AB4 /* CLSCustomVerticalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 464E068E18A287D200BE5AB4 /* CLSCustomVerticalLayout.m */; };
+		467FDFA418A356A700621C1B /* CLSCustomHorizontalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 467FDFA318A356A700621C1B /* CLSCustomHorizontalLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4612C4B918A35A6D003D419C /* CLSCustomVerticalScaleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSCustomVerticalScaleLayout.h; sourceTree = "<group>"; };
+		4612C4BA18A35A6D003D419C /* CLSCustomVerticalScaleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSCustomVerticalScaleLayout.m; sourceTree = "<group>"; };
 		464E064918A2759400BE5AB4 /* CustomLayoutSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomLayoutSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		464E064C18A2759400BE5AB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		464E064E18A2759400BE5AB4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +67,10 @@
 		464E068818A2775C00BE5AB4 /* CLSCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSCollectionViewCell.m; sourceTree = "<group>"; };
 		464E068A18A286FF00BE5AB4 /* CLSCustomLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSCustomLayoutViewController.h; sourceTree = "<group>"; };
 		464E068B18A2870000BE5AB4 /* CLSCustomLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSCustomLayoutViewController.m; sourceTree = "<group>"; };
-		464E068D18A287D200BE5AB4 /* CLSCustomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSCustomLayout.h; sourceTree = "<group>"; };
-		464E068E18A287D200BE5AB4 /* CLSCustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSCustomLayout.m; sourceTree = "<group>"; };
+		464E068D18A287D200BE5AB4 /* CLSCustomVerticalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSCustomVerticalLayout.h; sourceTree = "<group>"; };
+		464E068E18A287D200BE5AB4 /* CLSCustomVerticalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSCustomVerticalLayout.m; sourceTree = "<group>"; };
+		467FDFA218A356A700621C1B /* CLSCustomHorizontalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSCustomHorizontalLayout.h; sourceTree = "<group>"; };
+		467FDFA318A356A700621C1B /* CLSCustomHorizontalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSCustomHorizontalLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +141,12 @@
 				464E068818A2775C00BE5AB4 /* CLSCollectionViewCell.m */,
 				464E068A18A286FF00BE5AB4 /* CLSCustomLayoutViewController.h */,
 				464E068B18A2870000BE5AB4 /* CLSCustomLayoutViewController.m */,
-				464E068D18A287D200BE5AB4 /* CLSCustomLayout.h */,
-				464E068E18A287D200BE5AB4 /* CLSCustomLayout.m */,
+				464E068D18A287D200BE5AB4 /* CLSCustomVerticalLayout.h */,
+				464E068E18A287D200BE5AB4 /* CLSCustomVerticalLayout.m */,
+				467FDFA218A356A700621C1B /* CLSCustomHorizontalLayout.h */,
+				467FDFA318A356A700621C1B /* CLSCustomHorizontalLayout.m */,
+				4612C4B918A35A6D003D419C /* CLSCustomVerticalScaleLayout.h */,
+				4612C4BA18A35A6D003D419C /* CLSCustomVerticalScaleLayout.m */,
 				464E066718A2759400BE5AB4 /* Images.xcassets */,
 				464E065318A2759400BE5AB4 /* Supporting Files */,
 			);
@@ -271,12 +281,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				464E065918A2759400BE5AB4 /* main.m in Sources */,
-				464E068F18A287D200BE5AB4 /* CLSCustomLayout.m in Sources */,
+				464E068F18A287D200BE5AB4 /* CLSCustomVerticalLayout.m in Sources */,
 				464E068618A2763400BE5AB4 /* CLSSimpleCollectionViewController.m in Sources */,
 				464E068C18A2870000BE5AB4 /* CLSCustomLayoutViewController.m in Sources */,
 				464E065D18A2759400BE5AB4 /* CLSAppDelegate.m in Sources */,
+				4612C4BB18A35A6D003D419C /* CLSCustomVerticalScaleLayout.m in Sources */,
 				464E068918A2775C00BE5AB4 /* CLSCollectionViewCell.m in Sources */,
 				464E066318A2759400BE5AB4 /* CLSMasterViewController.m in Sources */,
+				467FDFA418A356A700621C1B /* CLSCustomHorizontalLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +497,7 @@
 				464E068018A2759400BE5AB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		464E068118A2759400BE5AB4 /* Build configuration list for PBXNativeTarget "CustomLayoutSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +506,7 @@
 				464E068318A2759400BE5AB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

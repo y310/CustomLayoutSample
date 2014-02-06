@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CLSCustomLayout : UICollectionViewLayout
-
+@interface CLSCustomVerticalLayout : UICollectionViewLayout
+@property (assign) CGFloat cellInterval;
+@property (assign) CGSize cellSize;
 @end
