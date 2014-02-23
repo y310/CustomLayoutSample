@@ -26,7 +26,9 @@
 		464E068918A2775C00BE5AB4 /* CLSCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 464E068818A2775C00BE5AB4 /* CLSCollectionViewCell.m */; };
 		464E068C18A2870000BE5AB4 /* CLSCustomLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464E068B18A2870000BE5AB4 /* CLSCustomLayoutViewController.m */; };
 		464E068F18A287D200BE5AB4 /* CLSCustomVerticalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 464E068E18A287D200BE5AB4 /* CLSCustomVerticalLayout.m */; };
+		464E069518AA74E600BE5AB4 /* CLSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464E069418AA74E600BE5AB4 /* CLSDetailViewController.m */; };
 		467FDFA418A356A700621C1B /* CLSCustomHorizontalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 467FDFA318A356A700621C1B /* CLSCustomHorizontalLayout.m */; };
+		F5820F315947444F9301999E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F045E1A0A68437982B6468F /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4244CCBF4826446B9ECFD108 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		4612C4B918A35A6D003D419C /* CLSCustomVerticalScaleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSCustomVerticalScaleLayout.h; sourceTree = "<group>"; };
 		4612C4BA18A35A6D003D419C /* CLSCustomVerticalScaleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSCustomVerticalScaleLayout.m; sourceTree = "<group>"; };
 		464E064918A2759400BE5AB4 /* CustomLayoutSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomLayoutSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,8 +72,11 @@
 		464E068B18A2870000BE5AB4 /* CLSCustomLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSCustomLayoutViewController.m; sourceTree = "<group>"; };
 		464E068D18A287D200BE5AB4 /* CLSCustomVerticalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSCustomVerticalLayout.h; sourceTree = "<group>"; };
 		464E068E18A287D200BE5AB4 /* CLSCustomVerticalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSCustomVerticalLayout.m; sourceTree = "<group>"; };
+		464E069318AA74E600BE5AB4 /* CLSDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSDetailViewController.h; sourceTree = "<group>"; };
+		464E069418AA74E600BE5AB4 /* CLSDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSDetailViewController.m; sourceTree = "<group>"; };
 		467FDFA218A356A700621C1B /* CLSCustomHorizontalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSCustomHorizontalLayout.h; sourceTree = "<group>"; };
 		467FDFA318A356A700621C1B /* CLSCustomHorizontalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSCustomHorizontalLayout.m; sourceTree = "<group>"; };
+		8F045E1A0A68437982B6468F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 				464E064F18A2759400BE5AB4 /* CoreGraphics.framework in Frameworks */,
 				464E065118A2759400BE5AB4 /* UIKit.framework in Frameworks */,
 				464E064D18A2759400BE5AB4 /* Foundation.framework in Frameworks */,
+				F5820F315947444F9301999E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +111,7 @@
 				464E067418A2759400BE5AB4 /* CustomLayoutSampleTests */,
 				464E064B18A2759400BE5AB4 /* Frameworks */,
 				464E064A18A2759400BE5AB4 /* Products */,
+				4244CCBF4826446B9ECFD108 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +131,7 @@
 				464E064E18A2759400BE5AB4 /* CoreGraphics.framework */,
 				464E065018A2759400BE5AB4 /* UIKit.framework */,
 				464E066E18A2759400BE5AB4 /* XCTest.framework */,
+				8F045E1A0A68437982B6468F /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -147,6 +156,8 @@
 				467FDFA318A356A700621C1B /* CLSCustomHorizontalLayout.m */,
 				4612C4B918A35A6D003D419C /* CLSCustomVerticalScaleLayout.h */,
 				4612C4BA18A35A6D003D419C /* CLSCustomVerticalScaleLayout.m */,
+				464E069318AA74E600BE5AB4 /* CLSDetailViewController.h */,
+				464E069418AA74E600BE5AB4 /* CLSDetailViewController.m */,
 				464E066718A2759400BE5AB4 /* Images.xcassets */,
 				464E065318A2759400BE5AB4 /* Supporting Files */,
 			);
@@ -189,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 464E067E18A2759400BE5AB4 /* Build configuration list for PBXNativeTarget "CustomLayoutSample" */;
 			buildPhases = (
+				86897A6787D74A69BD33FB27 /* Check Pods Manifest.lock */,
 				464E064518A2759400BE5AB4 /* Sources */,
 				464E064618A2759400BE5AB4 /* Frameworks */,
 				464E064718A2759400BE5AB4 /* Resources */,
+				501AB7AB69DA48D3821A8F4F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,11 +288,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		501AB7AB69DA48D3821A8F4F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86897A6787D74A69BD33FB27 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		464E064518A2759400BE5AB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				464E069518AA74E600BE5AB4 /* CLSDetailViewController.m in Sources */,
 				464E065918A2759400BE5AB4 /* main.m in Sources */,
 				464E068F18A287D200BE5AB4 /* CLSCustomVerticalLayout.m in Sources */,
 				464E068618A2763400BE5AB4 /* CLSSimpleCollectionViewController.m in Sources */,
@@ -412,6 +459,7 @@
 		};
 		464E067F18A2759400BE5AB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4244CCBF4826446B9ECFD108 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -425,6 +473,7 @@
 		};
 		464E068018A2759400BE5AB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4244CCBF4826446B9ECFD108 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

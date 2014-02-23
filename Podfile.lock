@@ -1,0 +1,14 @@
+PODS:
+  - MTOZoomInOutTransition (0.1.0)
+
+DEPENDENCIES:
+  - MTOZoomInOutTransition (from `git@github.com:y310/MTOZoomInOutTransition.git`)
+
+EXTERNAL SOURCES:
+  MTOZoomInOutTransition:
+    :git: git@github.com:y310/MTOZoomInOutTransition.git
+
+SPEC CHECKSUMS:
+  MTOZoomInOutTransition: 66213113737b4dadb47cab982928f91ad858e367
+
+COCOAPODS: 0.28.0

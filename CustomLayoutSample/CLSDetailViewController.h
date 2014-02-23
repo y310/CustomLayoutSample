@@ -9,8 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface CLSDetailViewController : UIViewController
-
-@property (strong, nonatomic) id detailItem;
-
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (weak) IBOutlet UIView *innerView;
+@property (copy) NSString *number;
+- (CGRect)targetRect;
 @end
